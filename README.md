@@ -15,8 +15,8 @@ I design and ship production systems for enterprise clients by day, and run a sm
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/danieltucker)
-[![Website](https://img.shields.io/badge/Bellingham_Hosting-1A1A1A?style=for-the-badge&logo=cloudflare&logoColor=white)](https://your-site.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:you@example.com)
+[![Website](https://img.shields.io/badge/Bellingham_Hosting-1A1A1A?style=for-the-badge&logo=cloudflare&logoColor=white)](https://bellinghamhosting.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daniel.tucker+linkedin@outlook.com)
 
 </div>
 
