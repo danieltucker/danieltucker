@@ -1,9 +1,3 @@
-<!--
-  GitHub Profile README
-  Replace danieltucker with your GitHub handle everywhere it appears.
-  Swap socials, badge colors, and links to taste.
--->
-
 <div align="center">
 
 # Hi, I'm Daniel
@@ -89,7 +83,7 @@ Self-hosted drive bay map for NAS boxes and servers. Builds a visual grid of eve
 
 [![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/danieltucker/BayWatch)
 
-<br><br>
+<br><br> 
 
 <img src="images/BayWatch.png" width="100%" alt="BayWatch dashboard">
 
