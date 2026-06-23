@@ -48,31 +48,54 @@ I'm comfortable owning a feature from infrastructure to UI: provisioning the clu
 
 ## 🚀 Featured Projects
 
-> A "Watch" family of self-hosted apps plus a couple of standalone products. Naming convention is half the fun.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🔭 Seer — Self-Hosted LLM Gateway
-A routing layer that sits above my app stack and dispatches LLM requests from each service to the right Ollama instance. Centralizes model access, keeps inference on my own hardware, and gives every downstream app a single, consistent entry point.
-`Node.js` · `Ollama` · `self-hosted`
+<img src="images/NetWatch%20Logo.png" height="44" alt="NetWatch"><br><br>
 
-### 📊 NetWatch — Uptime Monitoring
-Service uptime and health monitoring with its own static marketing site. Deployed and running in production on my homelab.
-`Node.js` · `Docker` · `monitoring`
+Self-hosted uptime monitoring for developers, homelabbers, and small teams. Makes real HTTP/S, TCP, and ICMP checks on configurable intervals and pushes every result to the browser instantly via Server-Sent Events — no polling, no page refreshes. Supports Telegram, email, and SMS alerts; scheduled status reports; SSL certificate expiry tracking; and per-monitor embed widgets.
 
-### ⏱️ Quarters & Credits — Focus Timer (shipped to the App Store)
-A cross-platform focus timer with a points-and-rewards economy spanning iOS, macOS, and web. Live on the App Store.
-`Swift` · `SwiftUI` · `cross-platform`
+<br>
 
-### 🔁 Syncbase — Schema-Agnostic Sync Backend
-A reusable sync engine designed to back Quarters & Credits and future projects, so new apps get offline-friendly data sync without reinventing it each time.
-`backend` · `sync` · `architecture`
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-### 🔥 CronFire — Cron as a Service
-A scheduling service that turns cron jobs into a managed, observable resource.
-`Node.js` · `scheduling`
+<br>
 
-### ✉️ PenPaLLM — Email-to-LLM Bridge
-Routes inbound email into an LLM and replies back out, built on Cloudflare Email Routing and Resend.
-`Cloudflare` · `Resend` · `LLM`
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/danieltucker/NetWatch)
+
+<br><br>
+
+<img src="images/NetWatch.png" width="100%" alt="NetWatch dashboard">
+
+</td>
+<td width="50%" valign="top">
+
+<img src="images/BayWatch%20Logo.png" height="44" alt="BayWatch"><br><br>
+
+Self-hosted drive bay map for NAS boxes and servers. Builds a visual grid of every drive and slot with live SMART health scores, temperature tracking, ZFS pool integration, warranty alerts, and federation across multiple hosts. Works on TrueNAS Scale, Unraid, or any Linux Docker host.
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+<br>
+
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/danieltucker/BayWatch)
+
+<br><br>
+
+<img src="images/BayWatch.png" width="100%" alt="BayWatch dashboard">
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -82,13 +105,14 @@ The lab where most of the above actually runs:
 
 | Layer | Stack |
 |---|---|
-| **Virtualization** | Proxmox (3-node cluster) |
+| **Virtualization** | Proxmox — 3-node cluster |
 | **Orchestration** | k3s |
-| **Storage** | TrueNAS — EPYC 7402, 128GB RAM, RTX 3090 |
+| **Storage** | TrueNAS Scale — ZFS on Supermicro (AMD EPYC 7402P · 128 GB ECC RAM) |
+| **GPU** | NVIDIA RTX 3090 — shared between Plex NVENC transcoding and Ollama inference |
 | **Networking** | UniFi |
-| **Media / AI** | Plex (NVENC), Ollama, Homebridge / HomeKit |
+| **Home Automation** | Homebridge / HomeKit |
 
-I run real workloads on this, which means I've debugged the unglamorous parts too: backplane faults, resilver events, GPU swaps breaking the apps service, IPMI fan control on Supermicro boards. The kind of problem-solving that doesn't show up in a tutorial.
+I run real workloads on this, which means I've debugged the unglamorous parts too: backplane faults, resilver events, the RTX 3090 getting pulled for a GPU swap and taking down both the media stack and local LLM inference at once, IPMI fan control on Supermicro boards, and k3s nodes that decide 3 AM is a good time to lose quorum. The kind of problem-solving that doesn't show up in a tutorial.
 
 ---
 
