@@ -117,24 +117,3 @@ I'm a **Senior Solutions Architect** working in professional services on convers
 On the side I run **Bellingham Hosting**, serving small businesses around Whatcom County, WA — websites, hosting, and the occasional rebuild.
 
 ---
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=danieltucker&show_icons=true&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=danieltucker&layout=compact&hide_border=true)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=danieltucker&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-When I'm not building, I'm usually on a motorcycle, in the garden, or playing something retro on a handheld.
-
-*Let's build something.*
-
-</div>
