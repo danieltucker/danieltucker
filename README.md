@@ -89,8 +89,6 @@ Self-hosted drive bay map for NAS boxes and servers. Builds a visual grid of eve
 </tr>
 </table>
 
----
-
 ## 🏗️ Homelab & Infrastructure
 
 The lab where most of the above actually runs:
