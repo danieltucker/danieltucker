@@ -36,8 +36,6 @@ I design and ship production systems for enterprise clients by day, and run a sm
 
 I'm comfortable owning a feature from infrastructure to UI: provisioning the cluster, wiring the services, building the API, and shipping the client. Lately a lot of my building has centered on self-hosted LLM tooling and a reusable sync backend that lets me stand up new apps quickly.
 
----
-
 ## 🚀 Featured Projects
 
 <table>
