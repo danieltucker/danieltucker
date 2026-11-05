@@ -106,8 +106,6 @@ The lab where most of the above actually runs:
 
 I run real workloads on this, which means I've debugged the unglamorous parts too: backplane faults, resilver events, the RTX 3090 getting pulled for a GPU swap and taking down both the media stack and local LLM inference at once, IPMI fan control on Supermicro boards, and k3s nodes that decide 3 AM is a good time to lose quorum. The kind of problem-solving that doesn't show up in a tutorial.
 
----
-
 ## 💼 Professionally
 
 I'm a **Senior Solutions Architect** working in professional services on conversational AI platforms, leading client engagements from design through delivery. Day to day that's translating business requirements into working systems, owning technical decisions, and being the person clients trust to make it work in production.
