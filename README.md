@@ -14,8 +14,6 @@ I design and ship production systems for enterprise clients by day, and run a sm
 
 </div>
 
----
-
 ## 🛠️ What I Work With
 
 <div align="center">
